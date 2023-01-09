@@ -1,0 +1,43 @@
+.carousel-item{
+    max-height: 600px;
+}
+
+.main{
+    margin: 3%;
+    min-height: 100vh;
+}
+
+h1{
+    font-size: 1.5rem;
+    border-bottom: 2px solid;
+}
+
+.insta-posts{
+    max-height: 100vh;
+    overflow: auto;
+}
+
+.member-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 94vw;
+}
+
+.card{
+    margin-right: 3px;
+    min-width: 300px;
+}
+
+footer{
+    background-color: rgb(32, 37, 41);
+    color: gray;
+    height:4vh;
+    text-align: center;
+}
+
+@media screen and (max-width:480px) {
+	/*　画面サイズが480px以下の場合　*/
+    .member-cards{
+        justify-content: center; /*カードを中央揃え*/
+    }
+}

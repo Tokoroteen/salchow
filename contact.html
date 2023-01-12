@@ -20,34 +20,14 @@
         <link rel="stylesheet" href="./static/css/style.css">
         <!-- FontAwesome -->
         <script src="https://kit.fontawesome.com/8ea6779c15.js" crossorigin="anonymous"></script>
-
+        <!-- Vue.js -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.7.11"></script>
         <title>Salchow | Contact</title>
     </head>
     <body>
         <!-- ナビゲーションバー -->
-        <div class="sticky-top">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="/">Salchow</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="/">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/member.html">Member</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active"  aria-current="page" href="/contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
+        <div id="app">
+        <header-template></header-template>
 
         <div class="main">
             <h1>お問い合わせ</h1>
@@ -56,8 +36,8 @@
         </div>
 
         <!-- フッター -->
-        <footer>
-            <p>&copy; 2023 Salcow</p>
-        </footer>
+        <footer-template></footer-template>
+        </div>
+        <script src='./app.js'></script>
     </body>
 </html>

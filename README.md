@@ -8,3 +8,5 @@ https://salchow.netlify.app/
 <card-template img_src="画像へのパス" member_name="メンバーの名前" basic="ポジションと身長" text="略歴（改行を入れたい場合はその場所に<br>と書き込む）"></card-template>
 ```
 を追加する。
+>**Warning**
+>メンバー画像は正方形にトリミングしたものが望ましい。
